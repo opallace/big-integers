@@ -4,30 +4,6 @@
 
 #include "bn.h"
 
-int main(){
-
-	BIGNUM *b = int_to_bn(3213123223);
-	BIGNUM *e = int_to_bn(500);
-	BIGNUM *m = int_to_bn(777799998);
-
-
-
-	pow_bn(b, e, b);
-	pow_bn(m, e, m);
-
-	printf("%i\n", b->size);
-	printf("%i\n", m->size);
-
-	BIGNUM *result = init_bn();
-
-	time_t time = clock();
-	karatsuba(b, m, result);
-	time = clock() - time;
-
-	println_bn(result);
-	printf("TIME: %f\n\n\n\n", ((float)time)/CLOCKS_PER_SEC);
-}
-
 BIGNUM* init_bn(){
 	
 	BIGNUM *num = malloc(sizeof(BIGNUM));

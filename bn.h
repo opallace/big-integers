@@ -9,7 +9,7 @@ typedef struct {
 	
 }BIGNUM;
 
-/*	Initializes the number values ​​and returns a big number pointer	
+/*  Initializes the number values ​​and returns a big number pointer	
  *
  *  Input:
  *  Output: a big number pointer
@@ -17,7 +17,7 @@ typedef struct {
  */
 BIGNUM* init_bn();
 
-/*	Converts a big number to an integer	
+/*  Converts a big number to an integer	
  *
  *  Input: a big number pointer
  *  Output: an integer
@@ -25,7 +25,7 @@ BIGNUM* init_bn();
  */
 int bn_to_int(BIGNUM *num);
 
-/*	Converts an integer to a big number
+/*  Converts an integer to a big number
  *
  *  Input: an integer
  *  Output: a big number pointer
@@ -33,7 +33,7 @@ int bn_to_int(BIGNUM *num);
  */
 BIGNUM* int_to_bn(uintmax_t num);
 
-/*	Calculates the bit size of a large number
+/*  Calculates the bit size of a large number
  *
  *  Input: a big number
  *  Output: an integer containing the length in bits
@@ -41,7 +41,7 @@ BIGNUM* int_to_bn(uintmax_t num);
  */
 int bit_length_bn(BIGNUM *num);
 
-/*	Copy a big number to another big number
+/*  Copy a big number to another big number
  *
  *  Input: two big numbers pointer
  *  Output:
@@ -49,7 +49,7 @@ int bit_length_bn(BIGNUM *num);
  */
 void copy_bn(BIGNUM *a, BIGNUM *b);
 
-/*	Reverse the order of the digits of the large number
+/*  Reverse the order of the digits of the large number
  *
  *  Input: a big number pointer
  *  Output:
@@ -57,7 +57,7 @@ void copy_bn(BIGNUM *a, BIGNUM *b);
  */
 void rev_bn(BIGNUM *num);
 
-/*	Removes zeros to the left of the large number
+/*  Removes zeros to the left of the large number
  *
  *  Input: a big number pointer
  *  Output:
@@ -69,14 +69,14 @@ void rmzero_bn(BIGNUM *num);
  *
  *  Input: two big numbers pointer
  *  Output:
- *			1 - if the first number is greater than the second
- *    		0 - if the two numbers are equal
+ *	    1 - if the first number is greater than the second
+ *    	    0 - if the two numbers are equal
  *   	   -1 - if the first number is less than the second
  * 
  */
 int comp_bn(BIGNUM *num1, BIGNUM *num2);
 
-/*	Returns the highest value
+/*  Returns the highest value
  *
  *  Input: two integers
  *  Output: the largest among the integers
@@ -117,7 +117,7 @@ void print_bn(BIGNUM *num);
 void println_bn(BIGNUM *num);
 
 /*  Generates a large random number between 0 and the specified value,
- *	[0, maximum value[.
+ *  [0, maximum value[.
  *
  *  Input: maximum value, a big number pointer
  *  Output:

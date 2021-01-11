@@ -1,8 +1,9 @@
 # big integers
-Esta biblioteca fornece a possibilidade de realizar operações matematicas com números acima de 32bits na linguagem C.
+Esta biblioteca fornece a possibilidade de realizar operações matemáticas com números acima de 32 bits na linguagem C.
 
 # Exemplo
 Neste código é realizado a operação 9999^500
+
 ```sh
 #include <stdio.h>
 #include <stdlib.h>

@@ -1,4 +1,4 @@
-# big integers
+# Big Integers
 Esta biblioteca fornece a possibilidade de realizar operações matemáticas com números acima de 32 bits na linguagem C.
 
 # Exemplo

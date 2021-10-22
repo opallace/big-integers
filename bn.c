@@ -660,14 +660,11 @@ void mul_bn(BIGNUM *xx, BIGNUM *yy, BIGNUM *result){
 	result->digits = calloc(x->size + y->size - 1, 1);
 	result->size   = x->size + y->size - 1;
 
-	if(x->sign == 1 && y->sign == 1){
+	if(x->sign == y->sign){
 		result->sign = 1;
-	}else if(x->sign == 1 && y->sign == 0){
+	}else {
 		result->sign = 0;
-	}else if(x->sign == 0 && y->sign == 1){
-		result->sign = 0;
-	}else if(x->sign == 0 && y->sign == 0){
-		result->sign = 1;
+	
 	}
 
 	for (int yi = y->size - 1; yi >= 0; yi--){

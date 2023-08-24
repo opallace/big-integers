@@ -2,7 +2,7 @@
 Esta biblioteca fornece a possibilidade de realizar operações matemáticas com números acima de 32 bits na linguagem C.
 
 # Exemplo
-Neste código é realizado a operação 9999^500
+Neste código é realizado a operação $9999^{500^$.
 
 ```sh
 #include <stdio.h>
@@ -27,7 +27,7 @@ int main(){
   return 0;
 }
 ```
-Resultado
+Resultado:
 
 ```sh
 $ time ./main

@@ -35,4 +35,5 @@ $ time ./main
 ./main  0.11s user 0.00s system 99% cpu 0.109 total
 ```
 
-OBSERVAÇÃO: Esta biblioteca é apenas para fins de estudo. A complexidade dos algoritmos implementados não é ideal para ser usada em casos reais. Utilize está biblioteca apenas como uma fonte de informação sobre como se pode trabalhar com números acima de 32bits. 
+> [!warning]
+> Esta biblioteca é apenas para fins de estudo. A complexidade dos algoritmos implementados não é ideal para ser usada em casos reais. Utilize está biblioteca apenas como uma fonte de informação sobre como se pode trabalhar com números acima de 32bits. 

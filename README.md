@@ -36,4 +36,4 @@ $ time ./main
 ```
 
 > [!warning]
-> Esta biblioteca é apenas para fins de estudo. A complexidade dos algoritmos implementados não é ideal para ser usada em casos reais. Utilize está biblioteca apenas como uma fonte de informação sobre como se pode trabalhar com números acima de 32bits. 
+> Esta biblioteca é apenas para fins de estudo. A complexidade dos algoritmos implementados não é ideal para ser usada em casos reais. Utilize está biblioteca apenas como uma fonte de informação sobre como se pode trabalhar com números acima de 32 bits. 
